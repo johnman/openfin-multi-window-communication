@@ -1,22 +1,22 @@
 {
-  "name": "openfin-messaging-approaches",
+  "name": "openfin-multi-window-communication",
   "version": "1.0.0",
-  "description": "Examples of how to message across windows",
+  "description": "An example of pushing out a message to multiple windows and seeing what the performance is like based on the size of the message and the approach.",
   "main": "index.html",
   "scripts": {
     "start": "serve"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johnman/openfin-csb-template.git"
+    "url": "git+https://github.com/johnman/openfin-multi-window-communication.git"
   },
   "keywords": [],
   "author": "OpenFin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/johnman/openfin-csb-template/issues"
+    "url": "https://github.com/johnman/openfin-multi-window-communication/issues"
   },
-  "homepage": "https://github.com/johnman/openfin-csb-template#readme",
+  "homepage": "https://github.com/johnman/openfin-multi-window-communication#readme",
   "devDependencies": {
     "serve": "^11.2.0"
   },

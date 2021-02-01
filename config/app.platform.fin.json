@@ -7,7 +7,7 @@
   },
   "platform": {
     "uuid": "openfin-messaging-perf-platform",
-    "applicationIcon": "https://eb7ye.csb.app/favicon.ico",
+    "applicationIcon": "https://zxf6r.csb.app/favicon.ico",
     "autoShow": false
   },
   "snapshot": {
@@ -33,7 +33,7 @@
                   "type": "component",
                   "componentName": "view",
                   "componentState": {
-                    "url": "https://eb7ye.csb.app/views/publisher.html",
+                    "url": "https://zxf6r.csb.app/views/publisher.html",
                     "name": "component_1584387105285"
                   },
                   "isClosable": true,
