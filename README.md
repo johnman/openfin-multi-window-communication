@@ -14,7 +14,9 @@ This hasn't been built as an example of best practice. The goal is to give you a
 
 You can use the link below to run the browser and OpenFin version (if you have OpenFin installed) of this example.
 
-https://zxf6r.csb.app/
+CodeSandbox: https://zxf6r.csb.app/
+
+Github: https://johnman.github.io/openfin-multi-window-communication/index.html
 
 If you want to browse the project using codesandbox you can visit:
 
