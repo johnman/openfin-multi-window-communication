@@ -7,7 +7,7 @@
     "url": "https://zxf6r.csb.app/views/publisher.html",
     "uuid": "openfin-messaging-perf-app",
     "autoShow": true,
-    "applicationIcon": "https://zxf6r.csb.app/favicon.ico"
+    "applicationIcon": "https://johnman.github.io/openfin-multi-window-communication/favicon.ico"
   },
   "runtime": {
     "version": "stable"

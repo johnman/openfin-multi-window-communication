@@ -1,0 +1,50 @@
+{
+  "devtools_port": 9090,
+  "licenseKey": "request-a-key",
+  "runtime": {
+    "arguments": "--v=1 --inspect",
+    "version": "stable"
+  },
+  "platform": {
+    "uuid": "openfin-messaging-perf-platform",
+    "applicationIcon": "https://johnman.github.io/openfin-multi-window-communication/favicon.ico",
+    "autoShow": false
+  },
+  "snapshot": {
+    "windows": [
+      {
+        "defaultWidth": 800,
+        "defaultHeight": 600,
+        "defaultLeft": 0,
+        "defaultTop": 0,
+        "saveWindowState": false,
+        "backgroundThrottling": false,
+        "layout": {
+          "content": [
+            {
+              "type": "stack",
+              "width": 100,
+              "isClosable": true,
+              "reorderEnabled": true,
+              "title": "",
+              "activeItemIndex": 0,
+              "content": [
+                {
+                  "type": "component",
+                  "componentName": "view",
+                  "componentState": {
+                    "url": "https://johnman.github.io/openfin-multi-window-communication/views/publisher.html",
+                    "name": "component_1584387105285"
+                  },
+                  "isClosable": true,
+                  "reorderEnabled": true,
+                  "title": "view"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

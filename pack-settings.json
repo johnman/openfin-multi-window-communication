@@ -1,0 +1,19 @@
+{
+  "name": "openfin",
+  "friendlyName": "OpenFin",
+  "description": "An example to show performance of messagebus vs broadcast channel to pick the right approach for you.",
+  "enabled": true,
+  "notifications": [],
+  "views": [
+    {
+      "id": "message-publisher",
+      "friendlyName": "Message Publisher",
+      "external": true,
+      "internal": true,
+      "height": 600,
+      "width": 410,
+      "url": "https://johnman.github.io/openfin-multi-window-communication/views/publisher.html",
+      "preload": []
+    }
+  ]
+}

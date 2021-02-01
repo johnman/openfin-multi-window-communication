@@ -1,4 +1,4 @@
-#Multi Window Communication
+# Multi Window Communication
 
 This example shows three different ways of pushing out messages from a single source to multiple windows.
 
@@ -10,7 +10,7 @@ You may want to have one window/worker acting as the connection to a websocket a
 
 This hasn't been built as an example of best practice. The goal is to give you a way of defining what type of message you want to share, how you want to share that message and if there is a threshold in milliseconds you do not want a message to exceed.
 
-# Running the example
+## Running the example
 
 You can use the link below to run the browser and OpenFin version (if you have OpenFin installed) of this example.
 
