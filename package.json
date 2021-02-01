@@ -1,0 +1,26 @@
+{
+  "name": "openfin-messaging-approaches",
+  "version": "1.0.0",
+  "description": "Examples of how to message across windows",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnman/openfin-csb-template.git"
+  },
+  "keywords": [],
+  "author": "OpenFin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnman/openfin-csb-template/issues"
+  },
+  "homepage": "https://github.com/johnman/openfin-csb-template#readme",
+  "devDependencies": {
+    "serve": "^11.2.0"
+  },
+  "dependencies": {
+    "@types/openfin": "49.0.0"
+  }
+}

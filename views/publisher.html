@@ -1,0 +1,83 @@
+<html>
+  <head>
+    <title>Message Publisher</title>
+    <script type="module" src="./publisher.js"></script>
+    <link rel="stylesheet" href="../style/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">Message Publisher</h1>
+      <div style="text-align: center;">
+        <button id="start" class="button">Start</button>
+        <button id="stop" class="button" style="display: none;">Stop</button>
+      </div>
+      <div id="results" style="display: none;">
+        <p>Total Messages Published:</p>
+        <span id="total"></span>
+      </div>
+      <div id="not-running">
+        <p>Number of message receivers:</p>
+        <input type="number" min="1" id="window-count" />
+        <p>
+          <button id="open" class="button">Open Window</button>
+          <button id="open-view" class="button" style="display: none;">
+            Open View
+          </button>
+        </p>
+        <div id="mode" class="mode-container">
+          <div class="mode">
+            <input
+              class="radio"
+              type="radio"
+              id="broadcastworker"
+              name="messagemode"
+              value="broadcastworker"
+              checked
+            />
+            <label for="broadcast">Broadcast Via Shared Worker</label>
+          </div>
+          <div class="mode">
+            <input
+              class="radio"
+              type="radio"
+              id="broadcast"
+              name="messagemode"
+              value="broadcast"
+            />
+            <label for="broadcast">Broadcast Direct</label>
+          </div>
+          <div id="iab-mode" class="mode" style="display: none;">
+            <input
+              class="radio"
+              type="radio"
+              id="iab"
+              name="messagemode"
+              value="iab"
+            />
+            <label for="iab">OpenFin IAB Message Bus</label>
+          </div>
+        </div>
+        <p>Threshold in ms:</p>
+        <p><input type="number" min="1" id="threshold" /></p>
+        <p>JSON To Send:</p>
+        <p>
+          <textarea
+            name=""
+            id="sample"
+            wrap="off"
+            cols="50"
+            rows="15"
+          ></textarea>
+        </p>
+      </div>
+      <div id="running" style="display: none;">
+        <h2>Messages sent using:</h2>
+        <span id="set-messagemode"></span>
+        <h2>Threshold in ms:</h2>
+        <span id="set-threshold"></span>
+        <h2>JSON Being Sent:</h2>
+        <pre><code id="set-json"></code></pre>
+      </div>
+    </div>
+  </body>
+</html>

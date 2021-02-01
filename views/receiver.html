@@ -1,0 +1,85 @@
+<html>
+  <head>
+    <title>Message Receiver</title>
+    <script type="module" src="./receiver.js"></script>
+    <link rel="stylesheet" href="../style/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">Message Receiver</h1>
+      <div id="not-running">
+        When you start pushing messages with the publisher this section will
+        show:
+
+        <ul>
+          <li>
+            The approach being used to send the data from one window to another
+          </li>
+          <li>
+            The threshold in milliseconds you set for a message to be received
+          </li>
+          <li>
+            The message you are sending (we are sending a slightly bigger
+            message as we wrap your message and include a timestamp)
+          </li>
+        </ul>
+        <p>
+          When the test is ended we will show the results showing how many
+          messages were received and how many of them exceeded the threshold.
+        </p>
+      </div>
+      <div id="results" style="display: none;">
+        <p>Total Entries Received: <span id="count"></span></p>
+        <p>
+          Time test started:
+          <span id="time-start"></span>
+        </p>
+        <p>
+          Time test ended:
+          <span id="time-end"></span>
+        </p>
+        <p>
+          Length of test in ms:
+          <span id="time-length"></span>
+        </p>
+        <p>
+          Number exceeding threshold:
+          <span id="threshold-exceeded-count"></span>
+        </p>
+        <p>
+          Fastest message in ms:
+          <span id="fastest-message"></span>
+        </p>
+        <p>
+          Fastest exceeded message in ms:
+          <span id="fastest-exceeded-message"></span>
+        </p>
+        <p>
+          Slowest message in ms:
+          <span id="slowest-message"></span>
+        </p>
+        <p>
+          Most common speed in ms:
+          <span id="common-message"></span>
+        </p>
+        <p>
+          Most common exceeded speed in ms:
+          <span id="common-exceeded-message"></span>
+        </p>
+        <p>
+          Average messages per second (rounded):
+          <span id="average-message"></span>
+        </p>
+        <button id="reset" class="button">Reset</button>
+      </div>
+      <div id="running" style="display: none;">
+        <h2>Messages sent using:</h2>
+        <span id="set-messagemode"></span>
+        <h2>Threshold in ms:</h2>
+        <span id="set-threshold"></span>
+        <h2>JSON Being Sent:</h2>
+        <pre><code id="set-json"></code></pre>
+      </div>
+    </div>
+  </body>
+</html>

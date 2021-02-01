@@ -1,0 +1,10 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "*.fin.json"
+      ],
+      "url": "./schema/openfin.schema.json"
+    }
+  ]
+}

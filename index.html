@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>OpenFin Template</title>
+    <script src="components/openfin-link.js"></script>
+    <script type="module" src="js/index.js"></script>
+    <link rel="stylesheet" href="style/main.css" />
+    <style>
+      body {
+        background-color: white;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Multi Window Communication</h1>
+    <p>
+      You are running OpenFin Runtime version:
+      <span id="openfin-version"></span>
+    </p>
+    <p>
+      This example shows three different ways of pushing out messages from a
+      single source to multiple windows.
+    </p>
+    <ul>
+      <li>Broadcast Channel using a Shared WebWorker</li>
+      <li>Broadcast Channel from the Publisher Page</li>
+      <li>
+        OpenFin IAB Message Bus from the Publisher Page (only within OpenFin)
+      </li>
+    </ul>
+    <p>
+      You may want to have one window/worker acting as the connection to a
+      websocket and then have that push out data across multiple windows.
+    </p>
+    <p>
+      This hasn't been built as an example of best practice. The goal was to
+      give you a way of defining what type of message you want to share, how you
+      want to share that message and if there is a threshold in milliseconds you
+      do not want a message to exceed.
+    </p>
+    <p>
+      You can run this example in the browser:
+    </p>
+    <p>
+      <a href="./views/publisher.html" target="_blank">Launch in the Browser</a>
+    </p>
+    <p>
+      Or you can run this example in OpenFin (either a standard application or
+      platform application):
+    </p>
+    <p>
+      <openfin-link
+        show-in-fin="false"
+        href="fins://./config/app.platform.fin.json"
+        >Launch OpenFin Platform Application</openfin-link
+      >
+    </p>
+    <p>
+      <openfin-link
+        show-in-fin="false"
+        href="fins://./config/app.window.fin.json"
+        >Launch OpenFin Windowed Application</openfin-link
+      >
+    </p>
+  </body>
+</html>

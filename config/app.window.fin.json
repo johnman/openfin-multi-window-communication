@@ -1,0 +1,15 @@
+{
+  "devtools_port": 9090,
+  "licenseKey": "request-a-key",
+  "startup_app": {
+    "name": "OpenFin Message Publisher Test",
+    "description": "Shows different ways of sending messages across windows",
+    "url": "https://eb7ye.csb.app/views/publisher.html",
+    "uuid": "openfin-messaging-perf-app",
+    "autoShow": true,
+    "applicationIcon": "https://eb7ye.csb.app/favicon.ico"
+  },
+  "runtime": {
+    "version": "stable"
+  }
+}
