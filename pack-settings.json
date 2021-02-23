@@ -10,8 +10,8 @@
       "friendlyName": "Message Publisher",
       "external": true,
       "internal": true,
-      "height": 600,
-      "width": 410,
+      "height": 650,
+      "width": 550,
       "url": "https://johnman.github.io/openfin-multi-window-communication/views/publisher.html",
       "preload": []
     }
